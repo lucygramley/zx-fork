@@ -1,4 +1,4 @@
-import { type RequestInfo, type RequestInit } from './vendor-core.js';
+import { type RequestInfo, type RequestInit } from './vendor-core.ts';
 import { type Buffer } from 'node:buffer';
 export type LogEntry = {
     verbose?: boolean;

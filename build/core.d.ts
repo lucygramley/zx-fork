@@ -1,19 +1,16 @@
-/// <reference types="node" />
-/// <reference types="fs-extra" />
-
 import { Buffer } from 'node:buffer';
 import cp, { type ChildProcess, type IOType, type StdioOptions } from 'node:child_process';
 import { type Encoding } from 'node:crypto';
 import { type Readable, type Writable } from 'node:stream';
 import { inspect } from 'node:util';
-import { log } from './log.js';
-import { type TSpawnStore } from './vendor-core.js';
-import { type Duration, quote } from './util.js';
+import { log } from './log.ts';
+import { type TSpawnStore } from './vendor-core.ts';
+import { type Duration, quote } from './util.ts';
 export { default as path } from 'node:path';
 export * as os from 'node:os';
-export { log, type LogEntry } from './log.js';
-export { chalk, which, ps } from './vendor-core.js';
-export { type Duration, quote, quotePowerShell } from './util.js';
+export { log, type LogEntry } from './log.ts';
+export { chalk, which, ps } from './vendor-core.ts';
+export { type Duration, quote, quotePowerShell } from './util.ts';
 declare const CWD: unique symbol;
 declare const SYNC: unique symbol;
 export interface Options {

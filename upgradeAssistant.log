@@ -1,0 +1,211 @@
+[2025-07-25T16:12:05.988Z] JS/TS Upgrade Assistant extension is activating...
+[2025-07-25T16:12:06.010Z] Commands registered: jsts-upgrade.showLogs, jsts-upgrade.updatePackages
+[2025-07-25T16:12:06.011Z] Initializing MCP server...
+[2025-07-25T16:12:06.012Z] JS/TS Upgrade Assistant MCP server provider registered successfully
+[2025-07-25T16:12:06.012Z] MCP Server ID: JSTSUpgradeAssistant
+[2025-07-25T16:12:06.013Z] MCP Server Path: c:\Users\lucygramley\.vscode-insiders\extensions\emilyfischer.jsts-upgrade-extension-0.0.1\dist\updates\Updates.exe
+[2025-07-25T16:12:06.277Z] Created MCP server definition: ID=JSTSUpgradeAssistant, Path=c:\Users\lucygramley\.vscode-insiders\extensions\emilyfischer.jsts-upgrade-extension-0.0.1\dist\updates\Updates.exe, Args=["--mcp","--copilot"]
+[2025-07-25T16:12:51.728Z] [MCP Server] [2025-07-25 09:12:51.377] [Information] [Updates.Program] Updates.exe MCP Server Starting
+[2025-07-25T16:12:51.729Z] [MCP Server] [2025-07-25 09:12:51.390] [Information] [Updates.Program] GitHub authentication: Available
+[2025-07-25T16:12:51.730Z] [MCP Server] [2025-07-25 09:12:51.390] [Information] [Updates.Program] MCP server configured, starting host...
+[2025-07-25T16:12:51.730Z] [MCP Server] [2025-07-25 09:12:51.460] [Information] [ModelContextProtocol.Server.StdioServerTransport] Server (stream) (Updates) transport reading messages.
+[2025-07-25T16:12:51.731Z] [MCP Server] [2025-07-25 09:12:51.513] [Information] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[2025-07-25T16:12:51.731Z] [MCP Server] [2025-07-25 09:12:51.514] [Information] [Microsoft.Hosting.Lifetime] Hosting environment: Production
+[2025-07-25T16:12:51.731Z] [MCP Server] [2025-07-25 09:12:51.517] [Information] [Microsoft.Hosting.Lifetime] Content root path: C:\Users\lucygramley
+[2025-07-25T16:12:51.732Z] [MCP Server] [2025-07-25 09:12:51.520] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0) method 'initialize' request handler called.
+[2025-07-25T16:12:51.732Z] [MCP Server] [2025-07-25 09:12:51.529] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'initialize' request handler completed.
+[2025-07-25T16:12:51.732Z] [MCP Server] [2025-07-25 09:12:51.539] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'logging/setLevel' request handler called.
+[2025-07-25T16:12:51.732Z] [MCP Server] [2025-07-25 09:12:51.539] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'tools/list' request handler called.
+[2025-07-25T16:12:51.733Z] [MCP Server] [2025-07-25 09:12:51.541] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'logging/setLevel' request handler completed.
+[2025-07-25T16:12:51.733Z] [MCP Server] [2025-07-25 09:12:51.546] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'tools/list' request handler completed.
+[2025-07-25T16:12:56.996Z] Generating UpdateTypeScriptPackages tool message for: c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork
+[2025-07-25T16:13:14.053Z] [MCP Server] [2025-07-25 09:13:13.871] [Information] [ModelContextProtocol.Server.McpServer] Server (Updates 1.0.0.0), Client (Visual Studio Code - Insiders 1.103.0-insider) method 'tools/call' request handler called.
+[2025-07-25T16:13:14.054Z] [MCP Server] [2025-07-25 09:13:13.891] [Information] [Updates.Mcp.McpTools] Starting UpdateTypeScriptPackages for directory: c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork
+[2025-07-25T16:13:14.054Z] [MCP Server] [2025-07-25 09:13:13.892] [Information] [Updates.Mcp.McpTools] Creating Updater instance...
+[2025-07-25T16:13:14.055Z] [MCP Server] [2025-07-25 09:13:13.895] Changing working directory from C:\Users\lucygramley to c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork
+[2025-07-25T16:13:14.055Z] [MCP Server] [2025-07-25 09:13:13.896] [Information] [Updates.Mcp.McpTools] Executing updater...
+[2025-07-25T16:13:47.539Z] [MCP Server] [2025-07-25 09:13:47.426] Updating 1 packages at c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork
+[2025-07-25T16:13:54.101Z] [MCP Server] [2025-07-25 09:13:53.619] Analyzing project at: c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork
+[2025-07-25T16:13:54.101Z] [MCP Server] [2025-07-25 09:13:53.621] Analyzing repository structure...
+[2025-07-25T16:13:54.101Z] [MCP Server] [2025-07-25 09:13:53.837] No monorepo structure detected
+[2025-07-25T16:13:54.102Z] [MCP Server] [2025-07-25 09:13:53.839] Generating installation commands...
+[2025-07-25T16:13:54.609Z] [MCP Server] [2025-07-25 09:13:54.326] Found 1 package installation tasks
+[2025-07-25T16:13:54.609Z] [MCP Server] [2025-07-25 09:13:54.334] Installing packages...
+[2025-07-25T16:14:02.808Z] [MCP Server] [2025-07-25 09:14:02.583] Looking for local TypeScript installation...
+[2025-07-25T16:14:02.808Z] [MCP Server] [2025-07-25 09:14:02.586] Using local TypeScript compiler at: c:\Users\lucygramley\Downloads\ai_test_repos\zx-fork\node_modules\typescript\lib\tsc.js
+[2025-07-25T16:14:02.809Z] [MCP Server] [2025-07-25 09:14:02.588] Building project to collect baseline errors...
+[2025-07-25T16:14:11.955Z] [MCP Server] [2025-07-25 09:14:11.807] Found 2 errors in initial build
+[2025-07-25T16:14:56.589Z] [MCP Server] [2025-07-25 09:14:56.471] Updating packages in the following order:
+[2025-07-25T16:14:56.590Z] [MCP Server] @commitlint/cli, @commitlint/config-conventional, @size-limit/file size-limit, @types/fs-extra, @types/minimist, @types/node madge ts-node typescript, @types/which, @webpod/ingrid, @webpod/ps, c8, chalk, create-require, cronometro, depseek, dts-bundle-generator, envapi, esbuild esbuild-node-externals esbuild-plugin-entry-chunks esbuild-plugin-extract-helpers esbuild-plugin-hybrid-export esbuild-plugin-transform-hook esbuild-plugin-utils, esbuild-plugin-resolve, fs-extra, get-port, globby, jsr, lefthook, minimist, node-fetch-native, prettier, tsd, tsx, vitepress, which, yaml, zurk
+[2025-07-25T16:14:57.093Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:14:57.094Z] [MCP Server] [2025-07-25 09:14:56.659] Updating package group (1/32): @commitlint/cli
+[2025-07-25T16:15:02.667Z] [MCP Server] [2025-07-25 09:15:02.193] No new errors found after updating @commitlint/cli.
+[2025-07-25T16:15:02.667Z] [MCP Server] [2025-07-25 09:15:02.195] Modified files while updating package(s) @commitlint/cli:
+[2025-07-25T16:15:02.668Z] [MCP Server] package.json
+[2025-07-25T16:15:02.668Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:02.668Z] [MCP Server] [2025-07-25 09:15:02.198] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:02.669Z] [MCP Server] [2025-07-25 09:15:02.201] Package group @commitlint/cli completed in 00:00:05.
+[2025-07-25T16:15:02.670Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:02.671Z] [MCP Server] [2025-07-25 09:15:02.204] Updating package group (2/32): @commitlint/config-conventional
+[2025-07-25T16:15:08.249Z] [MCP Server] [2025-07-25 09:15:07.932] No new errors found after updating @commitlint/config-conventional.
+[2025-07-25T16:15:08.250Z] [MCP Server] [2025-07-25 09:15:07.935] Modified files while updating package(s) @commitlint/config-conventional:
+[2025-07-25T16:15:08.250Z] [MCP Server] package.json
+[2025-07-25T16:15:08.250Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:08.251Z] [MCP Server] [2025-07-25 09:15:07.937] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:08.251Z] [MCP Server] [2025-07-25 09:15:07.939] Package group @commitlint/config-conventional completed in 00:00:05.
+[2025-07-25T16:15:08.251Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:08.252Z] [MCP Server] [2025-07-25 09:15:07.942] Updating package group (3/32): @size-limit/file size-limit
+[2025-07-25T16:15:13.838Z] [MCP Server] [2025-07-25 09:15:13.721] No new errors found after updating @size-limit/file size-limit.
+[2025-07-25T16:15:13.838Z] [MCP Server] [2025-07-25 09:15:13.723] Modified files while updating package(s) @size-limit/file size-limit:
+[2025-07-25T16:15:13.839Z] [MCP Server] package.json
+[2025-07-25T16:15:13.840Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:13.840Z] [MCP Server] [2025-07-25 09:15:13.725] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:13.841Z] [MCP Server] [2025-07-25 09:15:13.727] Package group @size-limit/file size-limit completed in 00:00:05.
+[2025-07-25T16:15:13.842Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:13.842Z] [MCP Server] [2025-07-25 09:15:13.731] Updating package group (4/32): @types/fs-extra
+[2025-07-25T16:15:19.909Z] [MCP Server] [2025-07-25 09:15:19.678] No new errors found after updating @types/fs-extra.
+[2025-07-25T16:15:19.909Z] [MCP Server] [2025-07-25 09:15:19.679] Modified files while updating package(s) @types/fs-extra:
+[2025-07-25T16:15:19.910Z] [MCP Server] package.json
+[2025-07-25T16:15:19.910Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:19.910Z] [MCP Server] [2025-07-25 09:15:19.681] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:19.910Z] [MCP Server] [2025-07-25 09:15:19.682] Package group @types/fs-extra completed in 00:00:05.
+[2025-07-25T16:15:19.910Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:19.911Z] [MCP Server] [2025-07-25 09:15:19.685] Updating package group (5/32): @types/minimist
+[2025-07-25T16:15:25.989Z] [MCP Server] [2025-07-25 09:15:25.658] No new errors found after updating @types/minimist.
+[2025-07-25T16:15:25.989Z] [MCP Server] [2025-07-25 09:15:25.659] Modified files while updating package(s) @types/minimist:
+[2025-07-25T16:15:25.989Z] [MCP Server] package.json
+[2025-07-25T16:15:25.990Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:25.990Z] [MCP Server] [2025-07-25 09:15:25.662] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:25.991Z] [MCP Server] [2025-07-25 09:15:25.665] Package group @types/minimist completed in 00:00:05.
+[2025-07-25T16:15:25.991Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:25.991Z] [MCP Server] [2025-07-25 09:15:25.667] Updating package group (6/32): @types/node madge ts-node typescript
+[2025-07-25T16:15:30.040Z] [MCP Server] [2025-07-25 09:15:29.743] Updating @types/node from 24.0.15 to 24.1.0
+[2025-07-25T16:15:34.069Z] [MCP Server] [2025-07-25 09:15:33.568] No new errors found after updating @types/node madge ts-node typescript.
+[2025-07-25T16:15:34.070Z] [MCP Server] [2025-07-25 09:15:33.571] Modified files while updating package(s) @types/node madge ts-node typescript:
+[2025-07-25T16:15:34.070Z] [MCP Server] package.json
+[2025-07-25T16:15:34.070Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:34.072Z] [MCP Server] [2025-07-25 09:15:33.575] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:34.072Z] [MCP Server] [2025-07-25 09:15:33.577] Package group @types/node madge ts-node typescript completed in 00:00:07.
+[2025-07-25T16:15:34.072Z] [MCP Server] Successfully upgraded 1 packages: @types/node
+[2025-07-25T16:15:34.072Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:34.073Z] [MCP Server] [2025-07-25 09:15:33.579] Updating package group (7/32): @types/which
+[2025-07-25T16:15:39.668Z] [MCP Server] [2025-07-25 09:15:39.370] No new errors found after updating @types/which.
+[2025-07-25T16:15:39.668Z] [MCP Server] [2025-07-25 09:15:39.371] Modified files while updating package(s) @types/which:
+[2025-07-25T16:15:39.669Z] [MCP Server] package.json
+[2025-07-25T16:15:39.669Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:39.669Z] [MCP Server] [2025-07-25 09:15:39.373] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:39.669Z] [MCP Server] [2025-07-25 09:15:39.374] Package group @types/which completed in 00:00:05.
+[2025-07-25T16:15:39.670Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:39.670Z] [MCP Server] [2025-07-25 09:15:39.377] Updating package group (8/32): @webpod/ingrid
+[2025-07-25T16:15:45.754Z] [MCP Server] [2025-07-25 09:15:45.565] No new errors found after updating @webpod/ingrid.
+[2025-07-25T16:15:45.754Z] [MCP Server] [2025-07-25 09:15:45.566] Modified files while updating package(s) @webpod/ingrid:
+[2025-07-25T16:15:45.755Z] [MCP Server] package.json
+[2025-07-25T16:15:45.755Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:45.755Z] [MCP Server] [2025-07-25 09:15:45.568] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:45.756Z] [MCP Server] [2025-07-25 09:15:45.570] Package group @webpod/ingrid completed in 00:00:06.
+[2025-07-25T16:15:45.756Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:45.757Z] [MCP Server] [2025-07-25 09:15:45.574] Updating package group (9/32): @webpod/ps
+[2025-07-25T16:15:51.864Z] [MCP Server] [2025-07-25 09:15:51.506] No new errors found after updating @webpod/ps.
+[2025-07-25T16:15:51.864Z] [MCP Server] [2025-07-25 09:15:51.507] Modified files while updating package(s) @webpod/ps:
+[2025-07-25T16:15:51.865Z] [MCP Server] package.json
+[2025-07-25T16:15:51.865Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:51.865Z] [MCP Server] [2025-07-25 09:15:51.508] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:51.866Z] [MCP Server] [2025-07-25 09:15:51.509] Package group @webpod/ps completed in 00:00:05.
+[2025-07-25T16:15:51.866Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:51.867Z] [MCP Server] [2025-07-25 09:15:51.512] Updating package group (10/32): c8
+[2025-07-25T16:15:57.429Z] [MCP Server] [2025-07-25 09:15:57.161] No new errors found after updating c8.
+[2025-07-25T16:15:57.429Z] [MCP Server] [2025-07-25 09:15:57.164] Modified files while updating package(s) c8:
+[2025-07-25T16:15:57.430Z] [MCP Server] package.json
+[2025-07-25T16:15:57.430Z] [MCP Server] package-lock.json
+[2025-07-25T16:15:57.430Z] [MCP Server] [2025-07-25 09:15:57.167] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:15:57.431Z] [MCP Server] [2025-07-25 09:15:57.169] Package group c8 completed in 00:00:05.
+[2025-07-25T16:15:57.431Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:15:57.431Z] [MCP Server] [2025-07-25 09:15:57.171] Updating package group (11/32): chalk
+[2025-07-25T16:16:03.031Z] [MCP Server] [2025-07-25 09:16:02.973] No new errors found after updating chalk.
+[2025-07-25T16:16:03.032Z] [MCP Server] [2025-07-25 09:16:02.975] Modified files while updating package(s) chalk:
+[2025-07-25T16:16:03.032Z] [MCP Server] package.json
+[2025-07-25T16:16:03.033Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:03.033Z] [MCP Server] [2025-07-25 09:16:02.977] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:03.035Z] [MCP Server] [2025-07-25 09:16:02.979] Package group chalk completed in 00:00:05.
+[2025-07-25T16:16:03.035Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:03.035Z] [MCP Server] [2025-07-25 09:16:02.981] Updating package group (12/32): create-require
+[2025-07-25T16:16:09.120Z] [MCP Server] [2025-07-25 09:16:09.067] No new errors found after updating create-require.
+[2025-07-25T16:16:09.120Z] [MCP Server] [2025-07-25 09:16:09.069] Modified files while updating package(s) create-require:
+[2025-07-25T16:16:09.121Z] [MCP Server] package.json
+[2025-07-25T16:16:09.121Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:09.121Z] [MCP Server] [2025-07-25 09:16:09.072] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:09.121Z] [MCP Server] [2025-07-25 09:16:09.073] Package group create-require completed in 00:00:06.
+[2025-07-25T16:16:09.121Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:09.122Z] [MCP Server] [2025-07-25 09:16:09.076] Updating package group (13/32): cronometro
+[2025-07-25T16:16:15.219Z] [MCP Server] [2025-07-25 09:16:14.779] No new errors found after updating cronometro.
+[2025-07-25T16:16:15.220Z] [MCP Server] [2025-07-25 09:16:14.781] Modified files while updating package(s) cronometro:
+[2025-07-25T16:16:15.221Z] [MCP Server] package.json
+[2025-07-25T16:16:15.221Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:15.222Z] [MCP Server] [2025-07-25 09:16:14.783] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:15.222Z] [MCP Server] [2025-07-25 09:16:14.785] Package group cronometro completed in 00:00:05.
+[2025-07-25T16:16:15.222Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:15.222Z] [MCP Server] [2025-07-25 09:16:14.789] Updating package group (14/32): depseek
+[2025-07-25T16:16:21.826Z] [MCP Server] [2025-07-25 09:16:21.788] No new errors found after updating depseek.
+[2025-07-25T16:16:21.827Z] [MCP Server] [2025-07-25 09:16:21.789] Modified files while updating package(s) depseek:
+[2025-07-25T16:16:21.827Z] [MCP Server] package.json
+[2025-07-25T16:16:21.828Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:21.828Z] [MCP Server] [2025-07-25 09:16:21.791] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:21.829Z] [MCP Server] [2025-07-25 09:16:21.792] Package group depseek completed in 00:00:07.
+[2025-07-25T16:16:21.829Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:21.830Z] [MCP Server] [2025-07-25 09:16:21.795] Updating package group (15/32): dts-bundle-generator
+[2025-07-25T16:16:27.928Z] [MCP Server] [2025-07-25 09:16:27.455] No new errors found after updating dts-bundle-generator.
+[2025-07-25T16:16:27.928Z] [MCP Server] [2025-07-25 09:16:27.456] Modified files while updating package(s) dts-bundle-generator:
+[2025-07-25T16:16:27.929Z] [MCP Server] package.json
+[2025-07-25T16:16:27.929Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:27.930Z] [MCP Server] [2025-07-25 09:16:27.458] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:27.930Z] [MCP Server] [2025-07-25 09:16:27.459] Package group dts-bundle-generator completed in 00:00:05.
+[2025-07-25T16:16:27.930Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:27.930Z] [MCP Server] [2025-07-25 09:16:27.460] Updating package group (16/32): envapi
+[2025-07-25T16:16:33.526Z] [MCP Server] [2025-07-25 09:16:33.391] No new errors found after updating envapi.
+[2025-07-25T16:16:33.527Z] [MCP Server] [2025-07-25 09:16:33.393] Modified files while updating package(s) envapi:
+[2025-07-25T16:16:33.527Z] [MCP Server] package.json
+[2025-07-25T16:16:33.528Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:33.528Z] [MCP Server] [2025-07-25 09:16:33.396] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:33.529Z] [MCP Server] [2025-07-25 09:16:33.398] Package group envapi completed in 00:00:05.
+[2025-07-25T16:16:33.529Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:33.529Z] [MCP Server] [2025-07-25 09:16:33.401] Updating package group (17/32): esbuild esbuild-node-externals esbuild-plugin-entry-chunks esbuild-plugin-extract-helpers esbuild-plugin-hybrid-export esbuild-plugin-transform-hook esbuild-plugin-utils
+[2025-07-25T16:16:39.636Z] [MCP Server] [2025-07-25 09:16:39.400] No new errors found after updating esbuild esbuild-node-externals esbuild-plugin-entry-chunks esbuild-plugin-extract-helpers esbuild-plugin-hybrid-export esbuild-plugin-transform-hook esbuild-plugin-utils.
+[2025-07-25T16:16:39.637Z] [MCP Server] [2025-07-25 09:16:39.402] Modified files while updating package(s) esbuild esbuild-node-externals esbuild-plugin-entry-chunks esbuild-plugin-extract-helpers esbuild-plugin-hybrid-export esbuild-plugin-transform-hook esbuild-plugin-utils:
+[2025-07-25T16:16:39.637Z] [MCP Server] package.json
+[2025-07-25T16:16:39.637Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:39.638Z] [MCP Server] [2025-07-25 09:16:39.405] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:39.638Z] [MCP Server] [2025-07-25 09:16:39.408] Package group esbuild esbuild-node-externals esbuild-plugin-entry-chunks esbuild-plugin-extract-helpers esbuild-plugin-hybrid-export esbuild-plugin-transform-hook esbuild-plugin-utils completed in 00:00:06.
+[2025-07-25T16:16:39.638Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:39.639Z] [MCP Server] [2025-07-25 09:16:39.411] Updating package group (18/32): esbuild-plugin-resolve
+[2025-07-25T16:16:45.742Z] [MCP Server] [2025-07-25 09:16:45.246] No new errors found after updating esbuild-plugin-resolve.
+[2025-07-25T16:16:45.742Z] [MCP Server] [2025-07-25 09:16:45.249] Modified files while updating package(s) esbuild-plugin-resolve:
+[2025-07-25T16:16:45.743Z] [MCP Server] package.json
+[2025-07-25T16:16:45.743Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:45.743Z] [MCP Server] [2025-07-25 09:16:45.253] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:45.744Z] [MCP Server] [2025-07-25 09:16:45.255] Package group esbuild-plugin-resolve completed in 00:00:05.
+[2025-07-25T16:16:45.744Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:45.744Z] [MCP Server] [2025-07-25 09:16:45.261] Updating package group (19/32): fs-extra
+[2025-07-25T16:16:51.338Z] [MCP Server] [2025-07-25 09:16:51.186] No new errors found after updating fs-extra.
+[2025-07-25T16:16:51.338Z] [MCP Server] [2025-07-25 09:16:51.188] Modified files while updating package(s) fs-extra:
+[2025-07-25T16:16:51.339Z] [MCP Server] package.json
+[2025-07-25T16:16:51.339Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:51.340Z] [MCP Server] [2025-07-25 09:16:51.190] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:51.340Z] [MCP Server] [2025-07-25 09:16:51.191] Package group fs-extra completed in 00:00:05.
+[2025-07-25T16:16:51.340Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:51.341Z] [MCP Server] [2025-07-25 09:16:51.194] Updating package group (20/32): get-port
+[2025-07-25T16:16:56.917Z] [MCP Server] [2025-07-25 09:16:56.757] No new errors found after updating get-port.
+[2025-07-25T16:16:56.918Z] [MCP Server] [2025-07-25 09:16:56.759] Modified files while updating package(s) get-port:
+[2025-07-25T16:16:56.918Z] [MCP Server] package.json
+[2025-07-25T16:16:56.918Z] [MCP Server] package-lock.json
+[2025-07-25T16:16:56.918Z] [MCP Server] [2025-07-25 09:16:56.761] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:16:56.918Z] [MCP Server] [2025-07-25 09:16:56.764] Package group get-port completed in 00:00:05.
+[2025-07-25T16:16:56.919Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:16:56.919Z] [MCP Server] [2025-07-25 09:16:56.767] Updating package group (21/32): globby
+[2025-07-25T16:17:02.500Z] [MCP Server] [2025-07-25 09:17:02.284] No new errors found after updating globby.
+[2025-07-25T16:17:02.500Z] [MCP Server] [2025-07-25 09:17:02.286] Modified files while updating package(s) globby:
+[2025-07-25T16:17:02.500Z] [MCP Server] package.json
+[2025-07-25T16:17:02.500Z] [MCP Server] package-lock.json
+[2025-07-25T16:17:02.500Z] [MCP Server] [2025-07-25 09:17:02.293] Deleted temp directory for PackageUpdater.
+[2025-07-25T16:17:02.501Z] [MCP Server] [2025-07-25 09:17:02.296] Package group globby completed in 00:00:05.
+[2025-07-25T16:17:02.501Z] [MCP Server] [ChatClient] Using Copilot model: gpt-4.1
+[2025-07-25T16:17:02.501Z] [MCP Server] [2025-07-25 09:17:02.300] Updating package group (22/32): jsr

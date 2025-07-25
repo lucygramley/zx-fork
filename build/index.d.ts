@@ -1,10 +1,7 @@
-/// <reference types="node" />
-/// <reference types="fs-extra" />
-
-import { ProcessPromise } from './core.js';
-export * from './core.js';
-export * from './goods.js';
-export { minimist, dotenv, fs, YAML, glob, glob as globby } from './vendor.js';
+import { ProcessPromise } from './core.ts';
+export * from './core.ts';
+export * from './goods.ts';
+export { minimist, dotenv, fs, YAML, glob, glob as globby } from './vendor.ts';
 export declare const VERSION: string;
 export declare const version: string;
 /**

@@ -1,4 +1,4 @@
-import * as _ from './index.js';
+import * as _ from './index.ts';
 declare global {
     type ProcessPromise = _.ProcessPromise;
     type ProcessOutput = _.ProcessOutput;

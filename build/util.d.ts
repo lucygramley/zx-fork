@@ -1,6 +1,6 @@
 import { type Buffer } from 'node:buffer';
-import { type TSpawnStoreChunks } from './vendor-core.js';
-export { isStringLiteral } from './vendor-core.js';
+import { type TSpawnStoreChunks } from './vendor-core.ts';
+export { isStringLiteral } from './vendor-core.ts';
 export declare function noop(): void;
 export declare function identity<T>(v: T): T;
 export declare function randomId(): string;

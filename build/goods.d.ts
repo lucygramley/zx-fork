@@ -1,9 +1,9 @@
 import { Buffer } from 'node:buffer';
 import { Readable } from 'node:stream';
 import { type Mode } from 'node:fs';
-import { type ProcessPromise } from './core.js';
-import { type Duration } from './util.js';
-import { type RequestInfo, type RequestInit, minimist } from './vendor.js';
+import { type ProcessPromise } from './core.ts';
+import { type Duration } from './util.ts';
+import { type RequestInfo, type RequestInit, minimist } from './vendor.ts';
 export declare function tempdir(prefix?: string, mode?: Mode): string;
 export declare function tempfile(name?: string, data?: string | Buffer, mode?: Mode): string;
 export { tempdir as tmpdir, tempfile as tmpfile };
